@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Суров</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__menu">
+                    <img src="./assets/logogo.png" height="75" width="75" alt="куа" class="header__img">
+                    <ul class="header__list">
+                        <li class="header__list-item"><a href="#">Главная</a></li>
+                        <li class="header__list-item"><a href="#">Новости</a></li>
+                        <li class="header__list-item"><a href="#">О нас</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="main__div">
+                    <section class="question">
+                        <h1 class="question-title">Напишите сценарий, который предлагает ввести некоторое
+                            предложение и по запросу пользователя</h1>
+                        <button onclick="btn_1()" class="question__1-btn">Выполнить</button>
+                        <p id="ansver1"></p>
+                    </section>
+                    <section class="question">
+                        <h1 class="question-title">Напишите сценарий, который дважды запрашивает у
+                            пользователя его имя и проверяет корректность (совпадение)
+                            введенной информации. Проверку совпадения провести с учетом
+                            того, что имя во второй раз может быть введено в другом
+                            регистре.</h1>
+                        <button onclick="btn_2()" class="question__2-btn">Выполнить</button>
+                        <p id="ansver2"></p>
+                    </section>
+                    <section class="question">
+                        <h1 class="question-title">Напишите сценарий, который запрашивает у пользователя
+                            некоторое арифметическое выражение и выводит результат его
+                            вычисления.</h1>
+                        <button onclick="btn_3()" class="question__3-btn">Выполнить</button>
+                        <p id="ansver3"></p>
+                    </section>
+                    <section class="question">
+                        <h1 class="question-title">Напишите сценарий, который запрашивает текстовую строку и
+                            выводит ее в окно браузера, выделяя при этом (цветом или
+                            стилем написания) все слова “JavaScript</h1>
+                        <button onclick="btn_4()" class="question__4-btn">Выполнить</button>
+                        <p id="ansver4"></p>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <h1 class="footer__title-text">Романов Варфейс</h2>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
